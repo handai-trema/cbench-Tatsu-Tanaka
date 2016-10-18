@@ -87,9 +87,9 @@ fast_cbench.rbを実行した時のプロファイル結果は[fast_cbench_profi
 これにより、最初にPacket Inが生じた時は代入を行い、flow_modの処理を行うが、二度目以降のpacket inに対しては`@flow_mod`の内容は変えずにすぐFlow Modを返すことで、処理を高速化していると考えられる。
 
 ##参考文献
-*デビッド・トーマス+アンドリュー・ハント(2001)「プログラミング Ruby」ピアソン・エデュケーション.　　
-*[テキスト: 7章 "すべての基本、ラーニングスイッチ"](http://yasuhito.github.io/trema-book/#learning_switch)  
-*[rubydoc](http://www.rubydoc.info/github/trema/trema/master/Trema)
+- デビッド・トーマス+アンドリュー・ハント(2001)「プログラミング Ruby」ピアソン・エデュケーション.  
+- [テキスト: 7章 "すべての基本、ラーニングスイッチ"](http://yasuhito.github.io/trema-book/#learning_switch)  
+- [rubydoc](http://www.rubydoc.info/github/trema/trema/master/Trema)
 
 
 
